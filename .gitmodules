@@ -22,3 +22,6 @@
 [submodule "json-filter"]
 	path = json-filter
 	url = https://github.com/nlink-jp/json-filter.git
+[submodule "markdown-viewer"]
+	path = markdown-viewer
+	url = https://github.com/nlink-jp/markdown-viewer.git

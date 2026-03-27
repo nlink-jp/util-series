@@ -15,6 +15,7 @@ This umbrella repository tracks them together as git submodules and hosts shared
 | [csv-to-json](https://github.com/nlink-jp/csv-to-json) | Go | Convert CSV data to a JSON array |
 | [json-to-sqlite](https://github.com/nlink-jp/json-to-sqlite) | Go | Load JSON data into SQLite with automatic schema inference and evolution |
 | [lookup](https://github.com/nlink-jp/lookup) | Go | Enrich JSON/JSONL streams by matching fields against CSV/JSON data sources |
+| [pptx-to-markdown](https://github.com/nlink-jp/pptx-to-markdown) | Python | Convert `.pptx` presentations to structured Markdown for LLM analysis |
 
 ## Design Philosophy
 
@@ -37,7 +38,9 @@ make clean      # Remove dist/
 
 Target platforms: `linux/amd64`, `linux/arm64`, `darwin/amd64`, `darwin/arm64`, `windows/amd64`.
 
-> **Note for `json-to-sqlite`**: this tool depends on `go-sqlite3` (CGO). Linux and Windows cross-compilation requires `musl-cross` and `mingw-w64` respectively.
+> **Note for `json-to-sqlite`**: this tool depends on `go-sqlite3` (CGO). Linux and Windows cross-compilation uses Podman (or Docker) containers.
+>
+> **Note for `pptx-to-markdown`**: this is a Python project managed with `uv`. It does not use `make`; use `uv sync` to install dependencies and `uv run pytest` to run tests.
 
 ## Shared Conventions
 

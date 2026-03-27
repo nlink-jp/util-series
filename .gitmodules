@@ -19,3 +19,6 @@
 [submodule "pptx-to-markdown"]
 	path = pptx-to-markdown
 	url = https://github.com/nlink-jp/pptx-to-markdown.git
+[submodule "json-filter"]
+	path = json-filter
+	url = https://github.com/nlink-jp/json-filter.git

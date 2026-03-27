@@ -1,0 +1,18 @@
+[submodule "json-to-table"]
+	path = json-to-table
+	url = https://github.com/nlink-jp/json-to-table.git
+[submodule "rex"]
+	path = rex
+	url = https://github.com/nlink-jp/rex.git
+[submodule "sdate"]
+	path = sdate
+	url = https://github.com/nlink-jp/sdate.git
+[submodule "csv-to-json"]
+	path = csv-to-json
+	url = https://github.com/nlink-jp/csv-to-json.git
+[submodule "json-to-sqlite"]
+	path = json-to-sqlite
+	url = https://github.com/nlink-jp/json-to-sqlite.git
+[submodule "lookup"]
+	path = lookup
+	url = https://github.com/nlink-jp/lookup.git

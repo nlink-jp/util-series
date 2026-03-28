@@ -25,3 +25,6 @@
 [submodule "markdown-viewer"]
 	path = markdown-viewer
 	url = https://github.com/nlink-jp/markdown-viewer.git
+[submodule "jstats"]
+	path = jstats
+	url = https://github.com/nlink-jp/jstats.git

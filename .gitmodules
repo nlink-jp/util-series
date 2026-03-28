@@ -28,3 +28,6 @@
 [submodule "jstats"]
 	path = jstats
 	url = https://github.com/nlink-jp/jstats.git
+[submodule "jviz"]
+	path = jviz
+	url = https://github.com/nlink-jp/jviz.git

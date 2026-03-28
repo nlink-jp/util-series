@@ -31,3 +31,9 @@
 [submodule "jviz"]
 	path = jviz
 	url = https://github.com/nlink-jp/jviz.git
+[submodule "eml-to-jsonl"]
+	path = eml-to-jsonl
+	url = https://github.com/nlink-jp/eml-to-jsonl.git
+[submodule "msg-to-jsonl"]
+	path = msg-to-jsonl
+	url = https://github.com/nlink-jp/msg-to-jsonl.git

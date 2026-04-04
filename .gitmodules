@@ -40,3 +40,6 @@
 [submodule "cclaude"]
 	path = cclaude
 	url = https://github.com/nlink-jp/cclaude.git
+[submodule "mcp-guardian"]
+	path = mcp-guardian
+	url = https://github.com/nlink-jp/mcp-guardian.git

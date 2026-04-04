@@ -27,6 +27,7 @@ util-series/
 ├── lookup/            github.com/nlink-jp/lookup
 ├── markdown-viewer/   github.com/nlink-jp/markdown-viewer
 ├── pptx-to-markdown/  github.com/nlink-jp/pptx-to-markdown  (Python/uv)
+├── mcp-guardian/       github.com/nlink-jp/mcp-guardian
 ├── rex/               github.com/nlink-jp/rex
 └── sdate/             github.com/nlink-jp/sdate
 ```

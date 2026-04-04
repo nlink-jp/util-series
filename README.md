@@ -23,6 +23,7 @@ This umbrella repository tracks them together as git submodules and hosts shared
 | [eml-to-jsonl](https://github.com/nlink-jp/eml-to-jsonl) | Go | Parse .eml files and output structured JSONL — headers, body, attachments |
 | [msg-to-jsonl](https://github.com/nlink-jp/msg-to-jsonl) | Go | Parse Outlook .msg files and output structured JSONL — same schema as eml-to-jsonl |
 | [cclaude](https://github.com/nlink-jp/cclaude) | Bash | Containerized Claude Code — run Claude Code in an isolated container with project isolation |
+| [mcp-guardian](https://github.com/nlink-jp/mcp-guardian) | Go | MCP governance proxy — zero-dependency single binary for tool call auditing, constraint learning, and loop detection |
 
 ## Design Philosophy
 

@@ -37,3 +37,6 @@
 [submodule "msg-to-jsonl"]
 	path = msg-to-jsonl
 	url = https://github.com/nlink-jp/msg-to-jsonl.git
+[submodule "cclaude"]
+	path = cclaude
+	url = https://github.com/nlink-jp/cclaude.git

@@ -43,3 +43,6 @@
 [submodule "mcp-guardian"]
 	path = mcp-guardian
 	url = https://github.com/nlink-jp/mcp-guardian.git
+[submodule "gem-rag"]
+	path = gem-rag
+	url = https://github.com/nlink-jp/gem-rag.git

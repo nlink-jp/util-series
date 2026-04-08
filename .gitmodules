@@ -49,3 +49,6 @@
 [submodule "webhook-relay"]
 	path = webhook-relay
 	url = https://github.com/nlink-jp/webhook-relay.git
+[submodule "mail-analyzer"]
+	path = mail-analyzer
+	url = https://github.com/nlink-jp/mail-analyzer.git

@@ -46,3 +46,6 @@
 [submodule "gem-rag"]
 	path = gem-rag
 	url = https://github.com/nlink-jp/gem-rag.git
+[submodule "webhook-relay"]
+	path = webhook-relay
+	url = https://github.com/nlink-jp/webhook-relay.git

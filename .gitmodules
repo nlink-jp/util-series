@@ -58,3 +58,6 @@
 [submodule "mail-analyzer-local"]
 	path = mail-analyzer-local
 	url = https://github.com/nlink-jp/mail-analyzer-local.git
+[submodule "gem-search"]
+	path = gem-search
+	url = https://github.com/nlink-jp/gem-search.git

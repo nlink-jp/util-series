@@ -55,3 +55,6 @@
 [submodule "mail-analyzer-gui"]
 	path = mail-analyzer-gui
 	url = https://github.com/nlink-jp/mail-analyzer-gui.git
+[submodule "mail-analyzer-local"]
+	path = mail-analyzer-local
+	url = https://github.com/nlink-jp/mail-analyzer-local.git

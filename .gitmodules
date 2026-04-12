@@ -61,3 +61,6 @@
 [submodule "gem-search"]
 	path = gem-search
 	url = https://github.com/nlink-jp/gem-search.git
+[submodule "gem-image"]
+	path = gem-image
+	url = git@github.com:nlink-jp/gem-image.git

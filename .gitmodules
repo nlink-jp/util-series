@@ -64,3 +64,6 @@
 [submodule "gem-image"]
 	path = gem-image
 	url = https://github.com/nlink-jp/gem-image.git
+[submodule "quick-translate"]
+	path = quick-translate
+	url = https://github.com/nlink-jp/quick-translate.git

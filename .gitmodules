@@ -67,3 +67,6 @@
 [submodule "quick-translate"]
 	path = quick-translate
 	url = https://github.com/nlink-jp/quick-translate.git
+[submodule "gem-query"]
+	path = gem-query
+	url = git@github.com:nlink-jp/gem-query.git

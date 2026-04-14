@@ -16,21 +16,30 @@ Pipe-friendly data transformation and processing CLI tools.
 
 ```
 util-series/
-├── csv-to-json/       github.com/nlink-jp/csv-to-json
-├── eml-to-jsonl/      github.com/nlink-jp/eml-to-jsonl
-├── msg-to-jsonl/      github.com/nlink-jp/msg-to-jsonl
-├── gem-query/         github.com/nlink-jp/gem-query  (CGO — cross-compile via Podman)
-├── json-filter/       github.com/nlink-jp/json-filter
-├── json-to-sqlite/    github.com/nlink-jp/json-to-sqlite  (CGO — cross-compile via Podman)
-├── json-to-table/     github.com/nlink-jp/json-to-table
-├── jstats/            github.com/nlink-jp/jstats
-├── jviz/              github.com/nlink-jp/jviz
-├── lookup/            github.com/nlink-jp/lookup
-├── markdown-viewer/   github.com/nlink-jp/markdown-viewer
-├── pptx-to-markdown/  github.com/nlink-jp/pptx-to-markdown  (Python/uv)
-├── mcp-guardian/       github.com/nlink-jp/mcp-guardian
-├── rex/               github.com/nlink-jp/rex
-└── sdate/             github.com/nlink-jp/sdate
+├── cclaude/             github.com/nlink-jp/cclaude
+├── csv-to-json/         github.com/nlink-jp/csv-to-json
+├── eml-to-jsonl/        github.com/nlink-jp/eml-to-jsonl
+├── gem-image/           github.com/nlink-jp/gem-image
+├── gem-query/           github.com/nlink-jp/gem-query  (CGO — cross-compile via Podman)
+├── gem-rag/             github.com/nlink-jp/gem-rag  (Python/uv)
+├── gem-search/          github.com/nlink-jp/gem-search
+├── json-filter/         github.com/nlink-jp/json-filter
+├── json-to-sqlite/      github.com/nlink-jp/json-to-sqlite  (CGO — cross-compile via Podman)
+├── json-to-table/       github.com/nlink-jp/json-to-table
+├── jstats/              github.com/nlink-jp/jstats
+├── jviz/                github.com/nlink-jp/jviz
+├── lookup/              github.com/nlink-jp/lookup
+├── mail-analyzer/       github.com/nlink-jp/mail-analyzer
+├── mail-analyzer-gui/   github.com/nlink-jp/mail-analyzer-gui  (Rust/Svelte/Tauri)
+├── mail-analyzer-local/ github.com/nlink-jp/mail-analyzer-local
+├── markdown-viewer/     github.com/nlink-jp/markdown-viewer
+├── mcp-guardian/        github.com/nlink-jp/mcp-guardian
+├── msg-to-jsonl/        github.com/nlink-jp/msg-to-jsonl
+├── pptx-to-markdown/    github.com/nlink-jp/pptx-to-markdown  (Python/uv)
+├── quick-translate/     github.com/nlink-jp/quick-translate  (Swift)
+├── rex/                 github.com/nlink-jp/rex
+├── sdate/               github.com/nlink-jp/sdate
+└── webhook-relay/       github.com/nlink-jp/webhook-relay
 ```
 
 ## Release checklist

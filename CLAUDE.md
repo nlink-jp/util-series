@@ -19,6 +19,7 @@ util-series/
 ├── csv-to-json/       github.com/nlink-jp/csv-to-json
 ├── eml-to-jsonl/      github.com/nlink-jp/eml-to-jsonl
 ├── msg-to-jsonl/      github.com/nlink-jp/msg-to-jsonl
+├── gem-query/         github.com/nlink-jp/gem-query  (CGO — cross-compile via Podman)
 ├── json-filter/       github.com/nlink-jp/json-filter
 ├── json-to-sqlite/    github.com/nlink-jp/json-to-sqlite  (CGO — cross-compile via Podman)
 ├── json-to-table/     github.com/nlink-jp/json-to-table

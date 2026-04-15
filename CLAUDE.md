@@ -18,6 +18,7 @@ Pipe-friendly data transformation and processing CLI tools.
 util-series/
 ├── cclaude/             github.com/nlink-jp/cclaude
 ├── csv-to-json/         github.com/nlink-jp/csv-to-json
+├── data-analyzer/       github.com/nlink-jp/data-analyzer
 ├── eml-to-jsonl/        github.com/nlink-jp/eml-to-jsonl
 ├── gem-image/           github.com/nlink-jp/gem-image
 ├── gem-query/           github.com/nlink-jp/gem-query  (CGO — cross-compile via Podman)

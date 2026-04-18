@@ -73,3 +73,6 @@
 [submodule "data-analyzer"]
 	path = data-analyzer
 	url = https://github.com/nlink-jp/data-analyzer.git
+[submodule "shell-agent"]
+	path = shell-agent
+	url = https://github.com/nlink-jp/shell-agent.git

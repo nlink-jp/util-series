@@ -79,3 +79,6 @@
 [submodule "data-agent"]
 	path = data-agent
 	url = https://github.com/nlink-jp/data-agent.git
+[submodule "shell-agent-v2"]
+	path = shell-agent-v2
+	url = https://github.com/nlink-jp/shell-agent-v2.git

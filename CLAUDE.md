@@ -41,6 +41,7 @@ util-series/
 ├── quick-translate/     github.com/nlink-jp/quick-translate  (Swift)
 ├── rex/                 github.com/nlink-jp/rex
 ├── sdate/               github.com/nlink-jp/sdate
+├── shell-agent-v2/      github.com/nlink-jp/shell-agent-v2  (Wails v2/React — GUI)
 └── webhook-relay/       github.com/nlink-jp/webhook-relay
 ```
 

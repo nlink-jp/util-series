@@ -82,3 +82,6 @@
 [submodule "shell-agent-v2"]
 	path = shell-agent-v2
 	url = https://github.com/nlink-jp/shell-agent-v2.git
+[submodule "csv-editor"]
+	path = csv-editor
+	url = git@github.com:nlink-jp/csv-editor.git

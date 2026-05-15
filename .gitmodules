@@ -85,3 +85,6 @@
 [submodule "csv-editor"]
 	path = csv-editor
 	url = https://github.com/nlink-jp/csv-editor.git
+[submodule "gem-transcribe"]
+	path = gem-transcribe
+	url = https://github.com/nlink-jp/gem-transcribe.git

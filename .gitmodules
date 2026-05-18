@@ -88,3 +88,6 @@
 [submodule "gem-transcribe"]
 	path = gem-transcribe
 	url = https://github.com/nlink-jp/gem-transcribe.git
+[submodule "gem-summary"]
+	path = gem-summary
+	url = https://github.com/nlink-jp/gem-summary.git

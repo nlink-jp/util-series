@@ -26,6 +26,7 @@ util-series/
 ├── gem-query/           github.com/nlink-jp/gem-query  (CGO — cross-compile via Podman)
 ├── gem-rag/             github.com/nlink-jp/gem-rag  (Python/uv)
 ├── gem-search/          github.com/nlink-jp/gem-search
+├── gem-summary/         github.com/nlink-jp/gem-summary
 ├── json-filter/         github.com/nlink-jp/json-filter
 ├── json-to-sqlite/      github.com/nlink-jp/json-to-sqlite  (CGO — cross-compile via Podman)
 ├── json-to-table/       github.com/nlink-jp/json-to-table

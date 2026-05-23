@@ -19,7 +19,6 @@ util-series/
 ├── cclaude/             github.com/nlink-jp/cclaude
 ├── csv-editor/          github.com/nlink-jp/csv-editor  (Wails v2/React — GUI)
 ├── csv-to-json/         github.com/nlink-jp/csv-to-json
-├── data-agent/          github.com/nlink-jp/data-agent  (Wails v2/React — GUI)
 ├── data-analyzer/       github.com/nlink-jp/data-analyzer
 ├── eml-to-jsonl/        github.com/nlink-jp/eml-to-jsonl
 ├── gem-image/           github.com/nlink-jp/gem-image

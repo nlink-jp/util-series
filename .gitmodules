@@ -91,3 +91,6 @@
 [submodule "gem-summary"]
 	path = gem-summary
 	url = https://github.com/nlink-jp/gem-summary.git
+[submodule "data-toolbox-mcp"]
+	path = data-toolbox-mcp
+	url = https://github.com/nlink-jp/data-toolbox-mcp.git

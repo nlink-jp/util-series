@@ -94,3 +94,6 @@
 [submodule "data-toolbox-mcp"]
 	path = data-toolbox-mcp
 	url = https://github.com/nlink-jp/data-toolbox-mcp.git
+[submodule "ask-gemini-mcp"]
+	path = ask-gemini-mcp
+	url = https://github.com/nlink-jp/ask-gemini-mcp.git

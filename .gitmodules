@@ -97,3 +97,6 @@
 [submodule "ask-gemini-mcp"]
 	path = ask-gemini-mcp
 	url = https://github.com/nlink-jp/ask-gemini-mcp.git
+[submodule "ask-llm-mcp"]
+	path = ask-llm-mcp
+	url = https://github.com/nlink-jp/ask-llm-mcp.git

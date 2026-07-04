@@ -100,3 +100,6 @@
 [submodule "ask-llm-mcp"]
 	path = ask-llm-mcp
 	url = https://github.com/nlink-jp/ask-llm-mcp.git
+[submodule "voice-studio-mcp"]
+	path = voice-studio-mcp
+	url = https://github.com/nlink-jp/voice-studio-mcp.git

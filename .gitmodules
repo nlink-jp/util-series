@@ -103,3 +103,6 @@
 [submodule "voice-studio-mcp"]
 	path = voice-studio-mcp
 	url = https://github.com/nlink-jp/voice-studio-mcp.git
+[submodule "claude-usage-lens"]
+	path = claude-usage-lens
+	url = https://github.com/nlink-jp/claude-usage-lens.git

@@ -18,6 +18,7 @@ Pipe-friendly data transformation and processing CLI tools.
 util-series/
 ├── ask-gemini-mcp/      github.com/nlink-jp/ask-gemini-mcp
 ├── cclaude/             github.com/nlink-jp/cclaude
+├── claude-usage-lens/   github.com/nlink-jp/claude-usage-lens
 ├── csv-editor/          github.com/nlink-jp/csv-editor  (Wails v2/React — GUI)
 ├── csv-to-json/         github.com/nlink-jp/csv-to-json
 ├── data-analyzer/       github.com/nlink-jp/data-analyzer

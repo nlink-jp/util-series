@@ -46,6 +46,7 @@ util-series/
 ├── rex/                 github.com/nlink-jp/rex
 ├── sdate/               github.com/nlink-jp/sdate
 ├── shell-agent-v2/      github.com/nlink-jp/shell-agent-v2  (Wails v2/React — GUI)
+├── video-studio-mcp/    github.com/nlink-jp/video-studio-mcp
 ├── voice-studio-mcp/    github.com/nlink-jp/voice-studio-mcp
 └── webhook-relay/       github.com/nlink-jp/webhook-relay
 ```

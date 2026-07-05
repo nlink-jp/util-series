@@ -109,3 +109,6 @@
 [submodule "claude-usage-lens-gui"]
 	path = claude-usage-lens-gui
 	url = https://github.com/nlink-jp/claude-usage-lens-gui.git
+[submodule "video-studio-mcp"]
+	path = video-studio-mcp
+	url = https://github.com/nlink-jp/video-studio-mcp.git

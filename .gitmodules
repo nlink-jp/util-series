@@ -106,3 +106,6 @@
 [submodule "claude-usage-lens"]
 	path = claude-usage-lens
 	url = https://github.com/nlink-jp/claude-usage-lens.git
+[submodule "claude-usage-lens-gui"]
+	path = claude-usage-lens-gui
+	url = https://github.com/nlink-jp/claude-usage-lens-gui.git

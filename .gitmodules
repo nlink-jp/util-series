@@ -112,3 +112,6 @@
 [submodule "video-studio-mcp"]
 	path = video-studio-mcp
 	url = https://github.com/nlink-jp/video-studio-mcp.git
+[submodule "image-forge"]
+	path = image-forge
+	url = https://github.com/nlink-jp/image-forge.git

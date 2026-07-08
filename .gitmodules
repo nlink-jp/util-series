@@ -115,3 +115,6 @@
 [submodule "image-forge"]
 	path = image-forge
 	url = https://github.com/nlink-jp/image-forge.git
+[submodule "image-forge-gui"]
+	path = image-forge-gui
+	url = https://github.com/nlink-jp/image-forge-gui.git

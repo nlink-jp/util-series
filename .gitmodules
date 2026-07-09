@@ -118,3 +118,9 @@
 [submodule "image-forge-gui"]
 	path = image-forge-gui
 	url = https://github.com/nlink-jp/image-forge-gui.git
+[submodule "active-lens"]
+	path = active-lens
+	url = https://github.com/nlink-jp/active-lens.git
+[submodule "active-lens-gui"]
+	path = active-lens-gui
+	url = https://github.com/nlink-jp/active-lens-gui.git

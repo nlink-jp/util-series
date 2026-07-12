@@ -17,6 +17,7 @@ Pipe-friendly data transformation and processing CLI tools.
 ```
 util-series/
 ├── ask-gemini-mcp/      github.com/nlink-jp/ask-gemini-mcp
+├── asn-lookup/          github.com/nlink-jp/asn-lookup
 ├── cclaude/             github.com/nlink-jp/cclaude
 ├── claude-usage-lens/   github.com/nlink-jp/claude-usage-lens
 ├── claude-usage-lens-gui/ github.com/nlink-jp/claude-usage-lens-gui  (Swift — menu-bar GUI)

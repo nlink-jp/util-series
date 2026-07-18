@@ -25,6 +25,7 @@ This umbrella repository tracks them together as git submodules and hosts shared
 | [msg-to-jsonl](https://github.com/nlink-jp/msg-to-jsonl) | Go | Parse Outlook .msg files and output structured JSONL — same schema as eml-to-jsonl |
 | [cclaude](https://github.com/nlink-jp/cclaude) | Bash | Containerized Claude Code — run Claude Code in an isolated container with project isolation |
 | [mcp-guardian](https://github.com/nlink-jp/mcp-guardian) | Go | MCP governance proxy — zero-dependency single binary for tool call auditing, constraint learning, and loop detection |
+| [share-mounter](https://github.com/nlink-jp/share-mounter) | Swift | macOS menu-bar app that auto-mounts SMB shares at login without opening a Finder window (NetFS) |
 
 ## Design Philosophy
 

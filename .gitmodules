@@ -130,3 +130,6 @@
 [submodule "load-spinner"]
 	path = load-spinner
 	url = https://github.com/nlink-jp/load-spinner.git
+[submodule "share-mounter"]
+	path = share-mounter
+	url = https://github.com/nlink-jp/share-mounter

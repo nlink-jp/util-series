@@ -133,3 +133,6 @@
 [submodule "share-mounter"]
 	path = share-mounter
 	url = https://github.com/nlink-jp/share-mounter
+[submodule "instant-translate"]
+	path = instant-translate
+	url = https://github.com/nlink-jp/instant-translate.git

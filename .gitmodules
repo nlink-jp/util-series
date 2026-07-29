@@ -139,3 +139,6 @@
 [submodule "url-shelf"]
 	path = url-shelf
 	url = https://github.com/nlink-jp/url-shelf.git
+[submodule "chrome-pilot-mcp"]
+	path = chrome-pilot-mcp
+	url = https://github.com/nlink-jp/chrome-pilot-mcp.git

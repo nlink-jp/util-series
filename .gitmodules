@@ -142,3 +142,6 @@
 [submodule "chrome-pilot-mcp"]
 	path = chrome-pilot-mcp
 	url = https://github.com/nlink-jp/chrome-pilot-mcp.git
+[submodule "splunk-mcp"]
+	path = splunk-mcp
+	url = https://github.com/nlink-jp/splunk-mcp.git

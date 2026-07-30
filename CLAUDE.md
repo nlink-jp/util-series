@@ -12,47 +12,21 @@
 
 ## This series
 
-Pipe-friendly data transformation and processing CLI tools.
+Pipe-friendly data transformation and processing CLI tools, plus MCP servers
+and GUI apps. The catalog — one row per submodule — is
+[README.md](README.md) (ADR-005); do not duplicate it here.
 
-```
-util-series/
-├── ask-gemini-mcp/      github.com/nlink-jp/ask-gemini-mcp
-├── asn-lookup/          github.com/nlink-jp/asn-lookup
-├── cclaude/             github.com/nlink-jp/cclaude
-├── claude-usage-lens/   github.com/nlink-jp/claude-usage-lens
-├── claude-usage-lens-gui/ github.com/nlink-jp/claude-usage-lens-gui  (Swift — menu-bar GUI)
-├── csv-editor/          github.com/nlink-jp/csv-editor  (Wails v2/React — GUI)
-├── csv-to-json/         github.com/nlink-jp/csv-to-json
-├── data-analyzer/       github.com/nlink-jp/data-analyzer
-├── eml-to-jsonl/        github.com/nlink-jp/eml-to-jsonl
-├── gem-image/           github.com/nlink-jp/gem-image
-├── gem-query/           github.com/nlink-jp/gem-query  (CGO — cross-compile via Podman)
-├── gem-rag/             github.com/nlink-jp/gem-rag  (Python/uv)
-├── gem-search/          github.com/nlink-jp/gem-search
-├── gem-summary/         github.com/nlink-jp/gem-summary
-├── instant-translate/   github.com/nlink-jp/instant-translate  (Swift — menu-bar GUI)
-├── json-filter/         github.com/nlink-jp/json-filter
-├── json-to-sqlite/      github.com/nlink-jp/json-to-sqlite  (CGO — cross-compile via Podman)
-├── json-to-table/       github.com/nlink-jp/json-to-table
-├── jstats/              github.com/nlink-jp/jstats
-├── jviz/                github.com/nlink-jp/jviz
-├── lookup/              github.com/nlink-jp/lookup
-├── mail-analyzer/       github.com/nlink-jp/mail-analyzer
-├── mail-analyzer-gui/   github.com/nlink-jp/mail-analyzer-gui  (Rust/Svelte/Tauri)
-├── mail-analyzer-local/ github.com/nlink-jp/mail-analyzer-local
-├── markdown-viewer/     github.com/nlink-jp/markdown-viewer
-├── mcp-guardian/        github.com/nlink-jp/mcp-guardian
-├── msg-to-jsonl/        github.com/nlink-jp/msg-to-jsonl
-├── pptx-to-markdown/    github.com/nlink-jp/pptx-to-markdown  (Python/uv)
-├── quick-translate/     github.com/nlink-jp/quick-translate  (Swift)
-├── rex/                 github.com/nlink-jp/rex
-├── sdate/               github.com/nlink-jp/sdate
-├── share-mounter/       github.com/nlink-jp/share-mounter  (Swift — menu-bar GUI)
-├── shell-agent-v2/      github.com/nlink-jp/shell-agent-v2  (Wails v2/React — GUI)
-├── video-studio-mcp/    github.com/nlink-jp/video-studio-mcp
-├── voice-studio-mcp/    github.com/nlink-jp/voice-studio-mcp
-└── webhook-relay/       github.com/nlink-jp/webhook-relay
-```
+Per-tool build quirks:
+
+- **CGO (cross-compile via Podman):** gem-query, json-to-sqlite;
+  image-forge is CGO/Metal, darwin/arm64 only
+- **Python/uv (no make):** gem-rag, gem-transcribe, pptx-to-markdown
+- **Wails v2/React GUI:** csv-editor, shell-agent-v2
+- **Swift GUI:** active-lens-gui, claude-usage-lens-gui, image-forge-gui,
+  instant-translate, load-spinner, quick-translate, share-mounter, url-shelf
+- **Tauri GUI:** mail-analyzer-gui
+- **Bash (no build):** cclaude
+- **Archived:** data-agent, shell-agent (superseded by shell-agent-v2)
 
 ## Release checklist
 

@@ -142,3 +142,6 @@
 [submodule "splunk-mcp"]
 	path = splunk-mcp
 	url = https://github.com/nlink-jp/splunk-mcp.git
+[submodule "grid-edit"]
+	path = grid-edit
+	url = https://github.com/nlink-jp/grid-edit.git

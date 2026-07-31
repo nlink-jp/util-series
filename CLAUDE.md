@@ -22,8 +22,9 @@ Per-tool build quirks:
   image-forge is CGO/Metal, darwin/arm64 only
 - **Python/uv (no make):** gem-rag, gem-transcribe, pptx-to-markdown
 - **Wails v2/React GUI:** csv-editor, shell-agent-v2
-- **Swift GUI:** active-lens-gui, claude-usage-lens-gui, image-forge-gui,
-  instant-translate, load-spinner, quick-translate, share-mounter, url-shelf
+- **Swift GUI:** active-lens-gui, claude-usage-lens-gui, grid-edit,
+  image-forge-gui, instant-translate, load-spinner, quick-translate,
+  share-mounter, url-shelf
 - **Tauri GUI:** mail-analyzer-gui
 - **Bash (no build):** cclaude
 - **Archived:** data-agent, shell-agent (superseded by shell-agent-v2)

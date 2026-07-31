@@ -17,7 +17,7 @@ This umbrella repository tracks them together as git submodules and hosts shared
 | [chrome-pilot-mcp](https://github.com/nlink-jp/chrome-pilot-mcp) | Go | Zero-dependency browser-automation MCP — 27 tools speaking the Chrome DevTools Protocol directly |
 | [claude-usage-lens](https://github.com/nlink-jp/claude-usage-lens) | Go | Token usage & cost analysis for Claude Code — parses local session logs into a durable SQLite store |
 | [claude-usage-lens-gui](https://github.com/nlink-jp/claude-usage-lens-gui) | Swift | macOS menu-bar app showing today's Claude usage cost, with Swift Charts analysis |
-| [csv-editor](https://github.com/nlink-jp/csv-editor) | Go + React (Wails) | CSV/TSV viewer & editor GUI for macOS/Windows — ARM64-native, handles UTF-8/Shift_JIS/CP932 |
+| [csv-editor](https://github.com/nlink-jp/csv-editor) | Go + React (Wails) | **(archived)** CSV/TSV viewer & editor GUI — superseded by grid-edit |
 | [csv-to-json](https://github.com/nlink-jp/csv-to-json) | Go | Convert CSV data to a JSON array |
 | [data-agent](https://github.com/nlink-jp/data-agent) | Go + React (Wails) | **(archived)** Data-analysis desktop GUI — superseded by shell-agent-v2 |
 | [data-analyzer](https://github.com/nlink-jp/data-analyzer) | Go | Large-scale JSON/JSONL analysis using local LLMs — sliding window + progressive summarization |

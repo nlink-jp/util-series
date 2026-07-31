@@ -21,13 +21,14 @@ Per-tool build quirks:
 - **CGO (cross-compile via Podman):** gem-query, json-to-sqlite;
   image-forge is CGO/Metal, darwin/arm64 only
 - **Python/uv (no make):** gem-rag, gem-transcribe, pptx-to-markdown
-- **Wails v2/React GUI:** csv-editor, shell-agent-v2
+- **Wails v2/React GUI:** shell-agent-v2
 - **Swift GUI:** active-lens-gui, claude-usage-lens-gui, grid-edit,
   image-forge-gui, instant-translate, load-spinner, quick-translate,
   share-mounter, url-shelf
 - **Tauri GUI:** mail-analyzer-gui
 - **Bash (no build):** cclaude
-- **Archived:** data-agent, shell-agent (superseded by shell-agent-v2)
+- **Archived:** csv-editor (superseded by grid-edit), data-agent,
+  shell-agent (superseded by shell-agent-v2)
 
 ## Release checklist
 

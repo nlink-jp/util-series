@@ -124,9 +124,6 @@
 [submodule "active-lens-gui"]
 	path = active-lens-gui
 	url = https://github.com/nlink-jp/active-lens-gui.git
-[submodule "asn-lookup"]
-	path = asn-lookup
-	url = https://github.com/nlink-jp/asn-lookup.git
 [submodule "load-spinner"]
 	path = load-spinner
 	url = https://github.com/nlink-jp/load-spinner.git

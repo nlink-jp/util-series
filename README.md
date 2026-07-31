@@ -13,7 +13,6 @@ This umbrella repository tracks them together as git submodules and hosts shared
 | [active-lens-gui](https://github.com/nlink-jp/active-lens-gui) | Swift | macOS menu-bar front-end over active-lens — current session state and a calendar-style work timeline |
 | [ask-gemini-mcp](https://github.com/nlink-jp/ask-gemini-mcp) | Go | MCP server exposing `ask_gemini(prompt)` — second-opinion consultations via Vertex AI Gemini |
 | [ask-llm-mcp](https://github.com/nlink-jp/ask-llm-mcp) | Go | MCP server exposing `ask_llm(prompt)` — second opinions via an OpenAI-compatible endpoint (e.g. LM Studio) |
-| [asn-lookup](https://github.com/nlink-jp/asn-lookup) | Go | Local IP↔AS lookups from the IPinfo Lite database (CLI + MCP) — fully offline |
 | [cclaude](https://github.com/nlink-jp/cclaude) | Bash | Containerized Claude Code — run Claude Code in an isolated container with project isolation |
 | [chrome-pilot-mcp](https://github.com/nlink-jp/chrome-pilot-mcp) | Go | Zero-dependency browser-automation MCP — 27 tools speaking the Chrome DevTools Protocol directly |
 | [claude-usage-lens](https://github.com/nlink-jp/claude-usage-lens) | Go | Token usage & cost analysis for Claude Code — parses local session logs into a durable SQLite store |

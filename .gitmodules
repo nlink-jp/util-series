@@ -145,3 +145,6 @@
 [submodule "grid-edit"]
 	path = grid-edit
 	url = https://github.com/nlink-jp/grid-edit.git
+[submodule "zip-porter"]
+	path = zip-porter
+	url = https://github.com/nlink-jp/zip-porter.git

@@ -148,3 +148,9 @@
 [submodule "zip-porter"]
 	path = zip-porter
 	url = https://github.com/nlink-jp/zip-porter.git
+[submodule "sensor-lens"]
+	path = sensor-lens
+	url = https://github.com/nlink-jp/sensor-lens.git
+[submodule "sensor-lens-gui"]
+	path = sensor-lens-gui
+	url = https://github.com/nlink-jp/sensor-lens-gui.git

@@ -154,3 +154,6 @@
 [submodule "sensor-lens-gui"]
 	path = sensor-lens-gui
 	url = https://github.com/nlink-jp/sensor-lens-gui.git
+[submodule "status-lens"]
+	path = status-lens
+	url = https://github.com/nlink-jp/status-lens.git

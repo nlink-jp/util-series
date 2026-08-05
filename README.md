@@ -56,6 +56,7 @@ This umbrella repository tracks them together as git submodules and hosts shared
 | [shell-agent](https://github.com/nlink-jp/shell-agent) | Go + Swift | **(archived)** macOS LLM chat & agent — superseded by shell-agent-v2 |
 | [shell-agent-v2](https://github.com/nlink-jp/shell-agent-v2) | Go + React (Wails) | Desktop app for interactive data analysis — session DuckDB, hybrid LLM, container sandbox |
 | [splunk-mcp](https://github.com/nlink-jp/splunk-mcp) | Go | MCP server for Splunk search over the REST API — async job pattern, exact result counts |
+| [status-lens](https://github.com/nlink-jp/status-lens) | Swift | macOS menu-bar watcher for Statuspage-hosted status pages (Claude, GitHub, …) — per-profile label + shape symbol, degradation/recovery notifications |
 | [url-shelf](https://github.com/nlink-jp/url-shelf) | Swift | macOS menu-bar shelf of URL notes kept as plain `.webloc` files — per-entry private-window opening. darwin/arm64 |
 | [video-studio-mcp](https://github.com/nlink-jp/video-studio-mcp) | Go | MCP server assembling narrated presentation MP4s from image + audio page manifests (ffmpeg) |
 | [voice-studio-mcp](https://github.com/nlink-jp/voice-studio-mcp) | Go | MCP server for local multi-speaker Japanese speech synthesis (AivisSpeech Engine) |

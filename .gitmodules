@@ -157,3 +157,6 @@
 [submodule "status-lens"]
 	path = status-lens
 	url = https://github.com/nlink-jp/status-lens.git
+[submodule "voice-scribe"]
+	path = voice-scribe
+	url = https://github.com/nlink-jp/voice-scribe.git

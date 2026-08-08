@@ -59,6 +59,7 @@ This umbrella repository tracks them together as git submodules and hosts shared
 | [status-lens](https://github.com/nlink-jp/status-lens) | Swift | macOS menu-bar watcher for Statuspage-hosted status pages (Claude, GitHub, …) — per-profile label + shape symbol, degradation/recovery notifications |
 | [url-shelf](https://github.com/nlink-jp/url-shelf) | Swift | macOS menu-bar shelf of URL notes kept as plain `.webloc` files — per-entry private-window opening. darwin/arm64 |
 | [video-studio-mcp](https://github.com/nlink-jp/video-studio-mcp) | Go | MCP server assembling narrated presentation MP4s from image + audio page manifests (ffmpeg) |
+| [voice-scribe](https://github.com/nlink-jp/voice-scribe) | Go | Local speech-to-text with speaker diarization (whisper.cpp + sherpa-onnx); CLI and MCP server |
 | [voice-studio-mcp](https://github.com/nlink-jp/voice-studio-mcp) | Go | MCP server for local multi-speaker Japanese speech synthesis (AivisSpeech Engine) |
 | [webhook-relay](https://github.com/nlink-jp/webhook-relay) | Go | Authenticated webhook receiver — writes payloads to GCS via Cloud Run Service |
 | [zip-porter](https://github.com/nlink-jp/zip-porter) | Swift | Windows-safe ZIP creation/extraction GUI+CLI — junk-free, NFC/CP932 names, AES-256/ZipCrypto passwords; hardened extraction (zip-slip, decompression bombs, quarantine propagation). darwin/arm64 |

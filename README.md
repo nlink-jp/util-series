@@ -32,7 +32,7 @@ This umbrella repository tracks them together as git submodules and hosts shared
 | [grid-edit](https://github.com/nlink-jp/grid-edit) | Swift | Native macOS CSV/TSV editor (AppKit) — csv-editor's successor; Japanese-encoding & delimiter auto-detection, IME-safe editing |
 | [image-forge](https://github.com/nlink-jp/image-forge) | Go | Local diffusion image-generation engine + model manager for Apple Silicon (stable-diffusion.cpp, CLI + MCP) |
 | [image-forge-gui](https://github.com/nlink-jp/image-forge-gui) | Swift | Native macOS front-end for image-forge — composer, batch generation, gallery |
-| [instant-translate](https://github.com/nlink-jp/instant-translate) | Swift | macOS menu-bar translator on the on-device Translation framework — no LLM, no network. darwin/arm64 |
+| [instant-translate](https://github.com/nlink-jp/instant-translate) | Swift | macOS menu-bar translator on the on-device Translation framework — no LLM, no network; reports its state and explains its failures. darwin/arm64 |
 | [json-filter](https://github.com/nlink-jp/json-filter) | Go | Extract, validate, prettify, and repair JSON from arbitrary text streams |
 | [json-to-sqlite](https://github.com/nlink-jp/json-to-sqlite) | Go | Load JSON data into SQLite with automatic schema inference and evolution |
 | [json-to-table](https://github.com/nlink-jp/json-to-table) | Go | Format a JSON array into text, Markdown, HTML, CSV, PNG, or Slack Block Kit tables |

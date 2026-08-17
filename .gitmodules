@@ -160,3 +160,6 @@
 [submodule "voice-scribe"]
 	path = voice-scribe
 	url = https://github.com/nlink-jp/voice-scribe.git
+[submodule "nvme-lens"]
+	path = nvme-lens
+	url = https://github.com/nlink-jp/nvme-lens.git

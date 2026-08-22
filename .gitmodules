@@ -163,3 +163,6 @@
 [submodule "nvme-lens"]
 	path = nvme-lens
 	url = https://github.com/nlink-jp/nvme-lens.git
+[submodule "mcp-bridge"]
+	path = mcp-bridge
+	url = https://github.com/nlink-jp/mcp-bridge.git

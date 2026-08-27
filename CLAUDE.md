@@ -23,9 +23,8 @@ Per-tool build quirks:
 - **Python/uv (no make):** gem-rag, gem-transcribe, pptx-to-markdown
 - **Wails v2/React GUI:** shell-agent-v2
 - **Swift GUI:** active-lens-gui, claude-usage-lens-gui, grid-edit,
-  image-forge-gui, instant-translate, load-spinner, quick-translate,
-  share-mounter, status-lens, url-shelf, zip-porter
-- **Tauri GUI:** mail-analyzer-gui
+  image-forge-gui, instant-translate, load-spinner, mail-analyzer-gui,
+  quick-translate, share-mounter, status-lens, url-shelf, zip-porter
 - **Bash (no build):** cclaude
 - **Archived:** csv-editor (superseded by grid-edit), data-agent,
   shell-agent (superseded by shell-agent-v2)

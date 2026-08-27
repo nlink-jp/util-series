@@ -41,7 +41,7 @@ This umbrella repository tracks them together as git submodules and hosts shared
 | [load-spinner](https://github.com/nlink-jp/load-spinner) | Swift | macOS menu-bar CPU/GPU load indicator — spinner speed proportional to load. darwin/arm64 |
 | [lookup](https://github.com/nlink-jp/lookup) | Go | Enrich JSON/JSONL streams by matching fields against CSV/JSON data sources |
 | [mail-analyzer](https://github.com/nlink-jp/mail-analyzer) | Go | Suspicious email analyzer — rule-based indicators + Gemini content analysis for .eml/.msg |
-| [mail-analyzer-gui](https://github.com/nlink-jp/mail-analyzer-gui) | Rust + Svelte (Tauri) | macOS desktop GUI for mail-analyzer — drag & drop email analysis |
+| [mail-analyzer-gui](https://github.com/nlink-jp/mail-analyzer-gui) | Swift | macOS desktop GUI for mail-analyzer — drag & drop email analysis (Apple Mail multi-message supported) |
 | [mail-analyzer-local](https://github.com/nlink-jp/mail-analyzer-local) | Go | Local LLM version of mail-analyzer — via OpenAI-compatible API (LM Studio, Ollama) |
 | [markdown-viewer](https://github.com/nlink-jp/markdown-viewer) | Go | Single-binary local Markdown viewer — renders GFM, Mermaid, and syntax-highlighted code in the browser |
 | [mcp-bridge](https://github.com/nlink-jp/mcp-bridge) | Go | Bridges stdio MCP clients to Streamable HTTP MCP servers that require a pre-registered OAuth client (Slack, GitHub Apps, Entra ID) — zero dependencies |

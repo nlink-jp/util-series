@@ -24,9 +24,10 @@ Per-tool build quirks:
 - **Wails v2/React GUI:** shell-agent-v2
 - **Swift GUI:** active-lens-gui, claude-usage-lens-gui, grid-edit,
   image-forge-gui, instant-translate, load-spinner, mail-analyzer-gui,
-  quick-translate, share-mounter, status-lens, url-shelf, zip-porter
+  share-mounter, status-lens, url-shelf, zip-porter
 - **Bash (no build):** cclaude
 - **Archived:** csv-editor (superseded by grid-edit), data-agent,
+  quick-translate (superseded by instant-translate),
   shell-agent (superseded by shell-agent-v2)
 
 ## Release checklist

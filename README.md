@@ -26,6 +26,7 @@ This umbrella repository tracks them together as git submodules and hosts shared
 | [gem-image](https://github.com/nlink-jp/gem-image) | Go | Image generation and editing CLI via Vertex AI Gemini |
 | [gem-query](https://github.com/nlink-jp/gem-query) | Go | Natural language data analysis CLI — SQL generation for DuckDB/SQLite via Vertex AI Gemini |
 | [gem-rag](https://github.com/nlink-jp/gem-rag) | Python | Gemini-powered RAG CLI for Markdown documents — Vertex AI embeddings + DuckDB |
+| [gem-scribe](https://github.com/nlink-jp/gem-scribe) | Go | Speech-to-text CLI and MCP server on Vertex AI's dedicated transcription model — speaker diarization, word timestamps |
 | [gem-search](https://github.com/nlink-jp/gem-search) | Go | Agentic web search via Vertex AI Gemini with Google Search Grounding |
 | [gem-summary](https://github.com/nlink-jp/gem-summary) | Go | Text summarisation CLI via Vertex AI Gemini — chunked/parallel fallback for long inputs |
 | [gem-transcribe](https://github.com/nlink-jp/gem-transcribe) | Python | Audio transcription CLI on Vertex AI Gemini — speaker inference, structured JSON |

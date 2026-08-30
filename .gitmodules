@@ -166,3 +166,6 @@
 [submodule "mcp-bridge"]
 	path = mcp-bridge
 	url = https://github.com/nlink-jp/mcp-bridge.git
+[submodule "gem-scribe"]
+	path = gem-scribe
+	url = https://github.com/nlink-jp/gem-scribe.git

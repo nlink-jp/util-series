@@ -29,7 +29,7 @@ This umbrella repository tracks them together as git submodules and hosts shared
 | [gem-scribe](https://github.com/nlink-jp/gem-scribe) | Go | Speech-to-text CLI and MCP server on Vertex AI's dedicated transcription model — speaker diarization, word timestamps |
 | [gem-search](https://github.com/nlink-jp/gem-search) | Go | Agentic web search via Vertex AI Gemini with Google Search Grounding |
 | [gem-summary](https://github.com/nlink-jp/gem-summary) | Go | Text summarisation CLI via Vertex AI Gemini — chunked/parallel fallback for long inputs |
-| [gem-transcribe](https://github.com/nlink-jp/gem-transcribe) | Python | Audio transcription CLI on Vertex AI Gemini — speaker inference, structured JSON |
+| [gem-transcribe](https://github.com/nlink-jp/gem-transcribe) | Python | **(archived)** Audio transcription CLI on Vertex AI Gemini — superseded by gem-scribe |
 | [grid-edit](https://github.com/nlink-jp/grid-edit) | Swift | Native macOS CSV/TSV editor (AppKit) — csv-editor's successor; Japanese-encoding & delimiter auto-detection, IME-safe editing |
 | [image-forge](https://github.com/nlink-jp/image-forge) | Go | Local diffusion image-generation engine + model manager for Apple Silicon (stable-diffusion.cpp, CLI + MCP) |
 | [image-forge-gui](https://github.com/nlink-jp/image-forge-gui) | Swift | Native macOS front-end for image-forge — composer, batch generation, gallery |

@@ -60,6 +60,7 @@ This umbrella repository tracks them together as git submodules and hosts shared
 | [shell-agent-v2](https://github.com/nlink-jp/shell-agent-v2) | Go + React (Wails) | Desktop app for interactive data analysis — session DuckDB, hybrid LLM, container sandbox |
 | [splunk-mcp](https://github.com/nlink-jp/splunk-mcp) | Go | MCP server for Splunk search over the REST API — async job pattern, exact result counts |
 | [status-lens](https://github.com/nlink-jp/status-lens) | Swift | macOS menu-bar watcher for Statuspage-hosted status pages (Claude, GitHub, …) — per-profile label + shape symbol, degradation/recovery notifications |
+| [task-clock](https://github.com/nlink-jp/task-clock) | Go | Resident macOS scheduler that does not trust launchd timing — cron/watermark triggers, scheduled-vs-actual history with overrun accounting, notification hooks, localhost HTTP trigger API. darwin/arm64 |
 | [url-shelf](https://github.com/nlink-jp/url-shelf) | Swift | macOS menu-bar shelf of URL notes kept as plain `.webloc` files — per-entry private-window opening. darwin/arm64 |
 | [video-studio-mcp](https://github.com/nlink-jp/video-studio-mcp) | Go | MCP server assembling narrated presentation MP4s from image + audio page manifests (ffmpeg) |
 | [voice-scribe](https://github.com/nlink-jp/voice-scribe) | Go | Local speech-to-text with speaker diarization (whisper.cpp + sherpa-onnx); CLI and MCP server |

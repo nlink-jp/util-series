@@ -169,3 +169,6 @@
 [submodule "gem-scribe"]
 	path = gem-scribe
 	url = https://github.com/nlink-jp/gem-scribe.git
+[submodule "task-clock"]
+	path = task-clock
+	url = https://github.com/nlink-jp/task-clock.git

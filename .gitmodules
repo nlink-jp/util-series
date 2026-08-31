@@ -172,3 +172,6 @@
 [submodule "task-clock"]
 	path = task-clock
 	url = https://github.com/nlink-jp/task-clock.git
+[submodule "task-clock-gui"]
+	path = task-clock-gui
+	url = https://github.com/nlink-jp/task-clock-gui.git

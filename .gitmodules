@@ -175,3 +175,9 @@
 [submodule "task-clock-gui"]
 	path = task-clock-gui
 	url = https://github.com/nlink-jp/task-clock-gui.git
+[submodule "gem-usage-lens"]
+	path = gem-usage-lens
+	url = https://github.com/nlink-jp/gem-usage-lens.git
+[submodule "gem-usage-lens-gui"]
+	path = gem-usage-lens-gui
+	url = https://github.com/nlink-jp/gem-usage-lens-gui.git

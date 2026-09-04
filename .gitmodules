@@ -181,3 +181,6 @@
 [submodule "gem-usage-lens-gui"]
 	path = gem-usage-lens-gui
 	url = https://github.com/nlink-jp/gem-usage-lens-gui.git
+[submodule "agent-board"]
+	path = agent-board
+	url = https://github.com/nlink-jp/agent-board.git

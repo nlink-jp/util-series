@@ -11,6 +11,7 @@ This umbrella repository tracks them together as git submodules and hosts shared
 |------|----------|-------------|
 | [active-lens](https://github.com/nlink-jp/active-lens) | Go | Content-free Mac activity tracker — classifies operating/present/away and derives a per-day work log. darwin/arm64 |
 | [active-lens-gui](https://github.com/nlink-jp/active-lens-gui) | Swift | macOS menu-bar front-end over active-lens — current session state and a calendar-style work timeline |
+| [agent-board](https://github.com/nlink-jp/agent-board) | Go | Machine-local shared knowledge board for concurrent AI agent sessions — claims delivered per turn through Claude Code / gem-agent hooks, path claims, write-side evaluation ladder |
 | [ask-gemini-mcp](https://github.com/nlink-jp/ask-gemini-mcp) | Go | MCP server exposing `ask_gemini(prompt)` — second-opinion consultations via Vertex AI Gemini |
 | [ask-llm-mcp](https://github.com/nlink-jp/ask-llm-mcp) | Go | MCP server exposing `ask_llm(prompt)` — second opinions via an OpenAI-compatible endpoint (e.g. LM Studio) |
 | [cclaude](https://github.com/nlink-jp/cclaude) | Bash | Containerized Claude Code — run Claude Code in an isolated container with project isolation |

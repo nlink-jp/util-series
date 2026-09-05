@@ -184,3 +184,6 @@
 [submodule "agent-board"]
 	path = agent-board
 	url = https://github.com/nlink-jp/agent-board.git
+[submodule "bigquery-mcp"]
+	path = bigquery-mcp
+	url = https://github.com/nlink-jp/bigquery-mcp.git

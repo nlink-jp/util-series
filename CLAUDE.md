@@ -26,10 +26,8 @@ Per-tool build quirks:
   grid-edit, image-forge-gui, instant-translate, load-spinner, mail-analyzer-gui,
   share-mounter, status-lens, url-shelf, zip-porter
 - **Bash (no build):** cclaude
-- **Archived:** csv-editor (superseded by grid-edit), data-agent,
-  gem-transcribe (superseded by gem-scribe),
-  quick-translate (superseded by instant-translate),
-  shell-agent (superseded by shell-agent-v2)
+- **Archived:** moved to
+  [archive-series](https://github.com/nlink-jp/archive-series) under `util/`
 
 ## Release checklist
 

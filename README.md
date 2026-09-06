@@ -19,9 +19,7 @@ This umbrella repository tracks them together as git submodules and hosts shared
 | [chrome-pilot-mcp](https://github.com/nlink-jp/chrome-pilot-mcp) | Go | Zero-dependency browser-automation MCP — 27 tools speaking the Chrome DevTools Protocol directly |
 | [claude-usage-lens](https://github.com/nlink-jp/claude-usage-lens) | Go | Token usage & cost analysis for Claude Code — parses local session logs into a durable SQLite store |
 | [claude-usage-lens-gui](https://github.com/nlink-jp/claude-usage-lens-gui) | Swift | macOS menu-bar app showing today's Claude usage cost, with Swift Charts analysis |
-| [csv-editor](https://github.com/nlink-jp/csv-editor) | Go + React (Wails) | **(archived)** CSV/TSV viewer & editor GUI — superseded by grid-edit |
 | [csv-to-json](https://github.com/nlink-jp/csv-to-json) | Go | Convert CSV data to a JSON array |
-| [data-agent](https://github.com/nlink-jp/data-agent) | Go + React (Wails) | **(archived)** Data-analysis desktop GUI — superseded by shell-agent-v2 |
 | [data-analyzer](https://github.com/nlink-jp/data-analyzer) | Go | Large-scale JSON/JSONL analysis using local LLMs — sliding window + progressive summarization |
 | [data-toolbox-mcp](https://github.com/nlink-jp/data-toolbox-mcp) | Go | MCP server exposing DuckDB analysis and containerized Python execution — workspace-scoped |
 | [eml-to-jsonl](https://github.com/nlink-jp/eml-to-jsonl) | Go | Parse .eml files and output structured JSONL — headers, body, attachments |
@@ -31,7 +29,6 @@ This umbrella repository tracks them together as git submodules and hosts shared
 | [gem-scribe](https://github.com/nlink-jp/gem-scribe) | Go | Speech-to-text CLI and MCP server on Vertex AI's dedicated transcription model — speaker diarization, word timestamps |
 | [gem-search](https://github.com/nlink-jp/gem-search) | Go | Agentic web search via Vertex AI Gemini with Google Search Grounding |
 | [gem-summary](https://github.com/nlink-jp/gem-summary) | Go | Text summarisation CLI via Vertex AI Gemini — chunked/parallel fallback for long inputs |
-| [gem-transcribe](https://github.com/nlink-jp/gem-transcribe) | Python | **(archived)** Audio transcription CLI on Vertex AI Gemini — superseded by gem-scribe |
 | [gem-usage-lens](https://github.com/nlink-jp/gem-usage-lens) | Go | Token usage & cost analysis for gem-agent (Vertex AI Gemini) — transcripts into a durable SQLite store, list-price costing, calendar-month budget |
 | [gem-usage-lens-gui](https://github.com/nlink-jp/gem-usage-lens-gui) | Swift | macOS menu-bar app showing today's gem-agent usage cost, with Swift Charts analysis and a monthly budget monitor |
 | [grid-edit](https://github.com/nlink-jp/grid-edit) | Swift | Native macOS CSV/TSV editor (AppKit) — csv-editor's successor; Japanese-encoding & delimiter auto-detection, IME-safe editing |
@@ -50,17 +47,14 @@ This umbrella repository tracks them together as git submodules and hosts shared
 | [mail-analyzer-local](https://github.com/nlink-jp/mail-analyzer-local) | Go | Local LLM version of mail-analyzer — via OpenAI-compatible API (LM Studio, Ollama) |
 | [markdown-viewer](https://github.com/nlink-jp/markdown-viewer) | Go | Single-binary local Markdown viewer — renders GFM, Mermaid, and syntax-highlighted code in the browser |
 | [mcp-bridge](https://github.com/nlink-jp/mcp-bridge) | Go | Bridges stdio MCP clients to Streamable HTTP MCP servers that require a pre-registered OAuth client (Slack, GitHub Apps, Entra ID) — zero dependencies |
-| [mcp-guardian](https://github.com/nlink-jp/mcp-guardian) | Go | **(archived)** MCP governance proxy — bridging half superseded by mcp-bridge; the governance layer was never adopted in practice |
 | [msg-to-jsonl](https://github.com/nlink-jp/msg-to-jsonl) | Go | Parse Outlook .msg files and output structured JSONL — same schema as eml-to-jsonl |
 | [nvme-lens](https://github.com/nlink-jp/nvme-lens) | Swift | macOS menu-bar monitor for NVMe SSD temperature and endurance — reads SMART through IOKit directly (no smartmontools, no root, no daemon) and judges on the hottest Temperature Sensor rather than the composite value, which understates the hotspot by 17–21 °C; six-hour sparklines in the panel, up to ninety days across seven metrics in History with outages drawn as gaps, and alerts on sustained heat, endurance, media errors and abnormal power-cycle rates. Internal and Thunderbolt/USB4 NVMe only — macOS has no SMART path to USB-attached drives, which are listed with the reason |
 | [pptx-to-markdown](https://github.com/nlink-jp/pptx-to-markdown) | Python | Convert `.pptx` presentations to structured Markdown for LLM analysis |
-| [quick-translate](https://github.com/nlink-jp/quick-translate) | Swift | **(archived)** macOS menu-bar translation via a local LLM (OpenAI-compatible API) — superseded by instant-translate |
 | [rex](https://github.com/nlink-jp/rex) | Go | Extract fields from text using named regex capture groups — outputs JSON |
 | [sdate](https://github.com/nlink-jp/sdate) | Go | Calculate timestamps using Splunk-like relative time modifiers (e.g., `-1d@d`) |
 | [sensor-lens](https://github.com/nlink-jp/sensor-lens) | Go | Collect SwitchBot temperature, humidity and CO2 into a local SQLite history — quota-aware polling, CSV backfill for what the API cannot serve |
 | [sensor-lens-gui](https://github.com/nlink-jp/sensor-lens-gui) | Swift | macOS menu-bar readout of your SwitchBot sensors — six-hour sparklines, CO2 alerts, and it collects while it runs |
 | [share-mounter](https://github.com/nlink-jp/share-mounter) | Swift | macOS menu-bar app that auto-mounts SMB shares at login without opening a Finder window (NetFS) |
-| [shell-agent](https://github.com/nlink-jp/shell-agent) | Go + Swift | **(archived)** macOS LLM chat & agent — superseded by shell-agent-v2 |
 | [shell-agent-v2](https://github.com/nlink-jp/shell-agent-v2) | Go + React (Wails) | Desktop app for interactive data analysis — session DuckDB, hybrid LLM, container sandbox |
 | [splunk-mcp](https://github.com/nlink-jp/splunk-mcp) | Go | MCP server for Splunk search over the REST API — async job pattern, exact result counts |
 | [status-lens](https://github.com/nlink-jp/status-lens) | Swift | macOS menu-bar watcher for Statuspage-hosted status pages (Claude, GitHub, …) — per-profile label + shape symbol, degradation/recovery notifications |
@@ -72,6 +66,10 @@ This umbrella repository tracks them together as git submodules and hosts shared
 | [voice-studio-mcp](https://github.com/nlink-jp/voice-studio-mcp) | Go | MCP server for local multi-speaker Japanese speech synthesis (AivisSpeech Engine) |
 | [webhook-relay](https://github.com/nlink-jp/webhook-relay) | Go | Authenticated webhook receiver — writes payloads to GCS via Cloud Run Service |
 | [zip-porter](https://github.com/nlink-jp/zip-porter) | Swift | Windows-safe ZIP creation/extraction GUI+CLI — junk-free, NFC/CP932 names, AES-256/ZipCrypto passwords; hardened extraction (zip-slip, decompression bombs, quarantine propagation). darwin/arm64 |
+
+> **Archived projects moved:** projects archived out of this series now live
+> in [archive-series](https://github.com/nlink-jp/archive-series) under `util/`.
+> They are read-only — don't add rows for them back here.
 
 ## Design Philosophy
 

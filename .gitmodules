@@ -40,9 +40,6 @@
 [submodule "cclaude"]
 	path = cclaude
 	url = https://github.com/nlink-jp/cclaude.git
-[submodule "mcp-guardian"]
-	path = mcp-guardian
-	url = https://github.com/nlink-jp/mcp-guardian.git
 [submodule "gem-rag"]
 	path = gem-rag
 	url = https://github.com/nlink-jp/gem-rag.git
@@ -64,30 +61,15 @@
 [submodule "gem-image"]
 	path = gem-image
 	url = https://github.com/nlink-jp/gem-image.git
-[submodule "quick-translate"]
-	path = quick-translate
-	url = https://github.com/nlink-jp/quick-translate.git
 [submodule "gem-query"]
 	path = gem-query
 	url = https://github.com/nlink-jp/gem-query.git
 [submodule "data-analyzer"]
 	path = data-analyzer
 	url = https://github.com/nlink-jp/data-analyzer.git
-[submodule "shell-agent"]
-	path = shell-agent
-	url = https://github.com/nlink-jp/shell-agent.git
-[submodule "data-agent"]
-	path = data-agent
-	url = https://github.com/nlink-jp/data-agent.git
 [submodule "shell-agent-v2"]
 	path = shell-agent-v2
 	url = https://github.com/nlink-jp/shell-agent-v2.git
-[submodule "csv-editor"]
-	path = csv-editor
-	url = https://github.com/nlink-jp/csv-editor.git
-[submodule "gem-transcribe"]
-	path = gem-transcribe
-	url = https://github.com/nlink-jp/gem-transcribe.git
 [submodule "gem-summary"]
 	path = gem-summary
 	url = https://github.com/nlink-jp/gem-summary.git

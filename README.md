@@ -65,6 +65,7 @@ This umbrella repository tracks them together as git submodules and hosts shared
 | [video-studio-mcp](https://github.com/nlink-jp/video-studio-mcp) | Go | MCP server assembling narrated presentation MP4s from image + audio page manifests (ffmpeg) |
 | [voice-scribe](https://github.com/nlink-jp/voice-scribe) | Go | Local speech-to-text with speaker diarization (whisper.cpp + sherpa-onnx); CLI and MCP server |
 | [voice-studio-mcp](https://github.com/nlink-jp/voice-studio-mcp) | Go | MCP server for local multi-speaker Japanese speech synthesis (AivisSpeech Engine) |
+| [web-fetch](https://github.com/nlink-jp/web-fetch) | Go | One URL's readable text, fetched from this machine, as a CLI and MCP server — markdown / text / raw, paged by offset with a document id; no credentials, nothing on disk, a finite denied-address guard inside the HTTP dialer |
 | [webhook-relay](https://github.com/nlink-jp/webhook-relay) | Go | Authenticated webhook receiver — writes payloads to GCS via Cloud Run Service |
 | [zip-porter](https://github.com/nlink-jp/zip-porter) | Swift | Windows-safe ZIP creation/extraction GUI+CLI — junk-free, NFC/CP932 names, AES-256/ZipCrypto passwords; hardened extraction (zip-slip, decompression bombs, quarantine propagation). darwin/arm64 |
 

@@ -172,3 +172,6 @@
 [submodule "brave-search"]
 	path = brave-search
 	url = https://github.com/nlink-jp/brave-search.git
+[submodule "web-fetch"]
+	path = web-fetch
+	url = https://github.com/nlink-jp/web-fetch.git

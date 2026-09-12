@@ -169,3 +169,6 @@
 [submodule "bigquery-mcp"]
 	path = bigquery-mcp
 	url = https://github.com/nlink-jp/bigquery-mcp.git
+[submodule "brave-search"]
+	path = brave-search
+	url = https://github.com/nlink-jp/brave-search.git

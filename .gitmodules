@@ -175,3 +175,6 @@
 [submodule "web-fetch"]
 	path = web-fetch
 	url = https://github.com/nlink-jp/web-fetch.git
+[submodule "menubar-spacer"]
+	path = menubar-spacer
+	url = https://github.com/nlink-jp/menubar-spacer.git

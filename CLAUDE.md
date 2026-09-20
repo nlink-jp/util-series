@@ -23,7 +23,7 @@ Per-tool build quirks:
 - **Python/uv (no make):** gem-rag, pptx-to-markdown
 - **Wails v2/React GUI:** shell-agent-v2
 - **Swift GUI:** active-lens-gui, claude-usage-lens-gui, gem-usage-lens-gui,
-  grid-edit, image-forge-gui, instant-translate, load-spinner, mail-analyzer-gui,
+  grid-edit, image-forge-gui, instant-translate, load-spinner, mail-analyzer-gui, net-meter,
   share-mounter, status-lens, url-shelf, zip-porter
 - **Bash (no build):** cclaude
 - **Archived:** moved to

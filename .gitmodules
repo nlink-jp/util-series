@@ -178,3 +178,6 @@
 [submodule "menubar-spacer"]
 	path = menubar-spacer
 	url = https://github.com/nlink-jp/menubar-spacer.git
+[submodule "net-meter"]
+	path = net-meter
+	url = https://github.com/nlink-jp/net-meter.git

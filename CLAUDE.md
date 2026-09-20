@@ -22,9 +22,9 @@ Per-tool build quirks:
   image-forge is CGO/Metal, darwin/arm64 only
 - **Python/uv (no make):** gem-rag, pptx-to-markdown
 - **Wails v2/React GUI:** shell-agent-v2
-- **Swift GUI:** active-lens-gui, claude-usage-lens-gui, gem-usage-lens-gui,
-  grid-edit, image-forge-gui, instant-translate, load-spinner, mail-analyzer-gui, net-meter,
-  share-mounter, status-lens, url-shelf, zip-porter
+- **Swift GUI:** any submodule with a `Package.swift` — `ls */Package.swift`.
+  Not listed by name: the list that stood here had four apps missing, one of
+  them added the same week another was.
 - **Bash (no build):** cclaude
 - **Archived:** moved to
   [archive-series](https://github.com/nlink-jp/archive-series) under `util/`

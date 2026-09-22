@@ -16,7 +16,7 @@ This umbrella repository tracks them together as git submodules and hosts shared
 | [bigquery-mcp](https://github.com/nlink-jp/bigquery-mcp) | Go | Protection-first BigQuery MCP server — every query is dry-run first and refused unless BigQuery classifies it as a single SELECT inside the dataset allowlist and the byte budget; named jobs under `maximumBytesBilled`, column-keyed rows with explicit caps, `{code, message, retryable, details}` errors; ADC, no SDK, one instance per billing project |
 | [brave-search](https://github.com/nlink-jp/brave-search) | Go | Brave Search API as a CLI and MCP server — ranked web results, LLM-ready page context, and Brave-grounded answers with citations; every result reports its cost, nothing is cached |
 | [cclaude](https://github.com/nlink-jp/cclaude) | Bash | Containerized Claude Code — run Claude Code in an isolated container with project isolation |
-| [chrome-pilot-mcp](https://github.com/nlink-jp/chrome-pilot-mcp) | Go | Zero-dependency browser-automation MCP — 27 tools speaking the Chrome DevTools Protocol directly |
+| [chrome-pilot-mcp](https://github.com/nlink-jp/chrome-pilot-mcp) | Go | Browser-automation MCP with no third-party dependencies — 27 tools speaking the Chrome DevTools Protocol directly |
 | [claude-usage-lens](https://github.com/nlink-jp/claude-usage-lens) | Go | Token usage & cost analysis for Claude Code — parses local session logs into a durable SQLite store |
 | [claude-usage-lens-gui](https://github.com/nlink-jp/claude-usage-lens-gui) | Swift | macOS menu-bar app showing today's Claude usage cost, with Swift Charts analysis |
 | [csv-to-json](https://github.com/nlink-jp/csv-to-json) | Go | Convert CSV data to a JSON array |

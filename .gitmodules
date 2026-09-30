@@ -178,3 +178,6 @@
 [submodule "net-meter"]
 	path = net-meter
 	url = https://github.com/nlink-jp/net-meter.git
+[submodule "timeout"]
+	path = timeout
+	url = https://github.com/nlink-jp/timeout.git

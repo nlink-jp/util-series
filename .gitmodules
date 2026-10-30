@@ -181,3 +181,6 @@
 [submodule "timeout"]
 	path = timeout
 	url = https://github.com/nlink-jp/timeout.git
+[submodule "agent-report"]
+	path = agent-report
+	url = https://github.com/nlink-jp/agent-report.git

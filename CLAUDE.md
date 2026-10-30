@@ -26,6 +26,8 @@ Per-tool build quirks:
   Not listed by name: the list that stood here had four apps missing, one of
   them added the same week another was.
 - **Bash (no build):** cclaude
+- **Go, darwin/arm64 release only:** agent-report — it reads gem-agent and
+  lagent transcripts, which exist only on macOS (its RFP §7)
 - **Archived:** moved to
   [archive-series](https://github.com/nlink-jp/archive-series) under `util/`
 

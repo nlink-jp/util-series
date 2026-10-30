@@ -11,6 +11,7 @@ This umbrella repository tracks them together as git submodules and hosts shared
 |------|----------|-------------|
 | [active-lens](https://github.com/nlink-jp/active-lens) | Go | Content-free Mac activity tracker — classifies operating/present/away and derives a per-day work log. darwin/arm64 |
 | [active-lens-gui](https://github.com/nlink-jp/active-lens-gui) | Swift | macOS menu-bar front-end over active-lens — current session state and a calendar-style work timeline |
+| [agent-report](https://github.com/nlink-jp/agent-report) | Go | Usage summary of gem-agent and lagent sessions to attach to a report — numbers only from the local transcripts, nothing sent. darwin/arm64 |
 | [ask-gemini-mcp](https://github.com/nlink-jp/ask-gemini-mcp) | Go | MCP server exposing `ask_gemini(prompt)` — second-opinion consultations via Vertex AI Gemini |
 | [ask-llm-mcp](https://github.com/nlink-jp/ask-llm-mcp) | Go | MCP server exposing `ask_llm(prompt)` — second opinions via an OpenAI-compatible endpoint (e.g. LM Studio) |
 | [bigquery-mcp](https://github.com/nlink-jp/bigquery-mcp) | Go | Protection-first BigQuery MCP server — every query is dry-run first and refused unless BigQuery classifies it as a single SELECT inside the dataset allowlist and the byte budget; named jobs under `maximumBytesBilled`, column-keyed rows with explicit caps, `{code, message, retryable, details}` errors; ADC, no SDK, one instance per billing project |

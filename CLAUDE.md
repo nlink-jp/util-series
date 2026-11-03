@@ -20,6 +20,8 @@ Per-tool build quirks:
 
 - **CGO (cross-compile via Podman):** gem-query, json-to-sqlite;
   image-forge is CGO/Metal, darwin/arm64 only
+- **CGO + macOS frameworks, darwin/arm64 only:** report-studio-mcp — Core Text
+  and Core Graphics through cgo; `MACOSX_DEPLOYMENT_TARGET` pins macOS 26
 - **Python/uv (no make):** gem-rag, pptx-to-markdown
 - **Wails v2/React GUI:** shell-agent-v2
 - **Swift GUI:** any submodule with a `Package.swift` — `ls */Package.swift`.

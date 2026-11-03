@@ -184,3 +184,6 @@
 [submodule "agent-report"]
 	path = agent-report
 	url = https://github.com/nlink-jp/agent-report.git
+[submodule "report-studio-mcp"]
+	path = report-studio-mcp
+	url = https://github.com/nlink-jp/report-studio-mcp.git

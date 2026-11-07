@@ -187,3 +187,6 @@
 [submodule "report-studio-mcp"]
 	path = report-studio-mcp
 	url = https://github.com/nlink-jp/report-studio-mcp.git
+[submodule "mermaid-to-png"]
+	path = mermaid-to-png
+	url = https://github.com/nlink-jp/mermaid-to-png.git

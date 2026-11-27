@@ -60,7 +60,6 @@ This umbrella repository tracks them together as git submodules and hosts shared
 | [sensor-lens](https://github.com/nlink-jp/sensor-lens) | Go | Collect SwitchBot temperature, humidity and CO2 into a local SQLite history — quota-aware polling, CSV backfill for what the API cannot serve |
 | [sensor-lens-gui](https://github.com/nlink-jp/sensor-lens-gui) | Swift | macOS menu-bar readout of your SwitchBot sensors — six-hour sparklines, CO2 alerts, and it collects while it runs |
 | [share-mounter](https://github.com/nlink-jp/share-mounter) | Swift | macOS menu-bar app that auto-mounts SMB shares at login without opening a Finder window (NetFS) |
-| [shell-agent-v2](https://github.com/nlink-jp/shell-agent-v2) | Go + React (Wails) | Desktop app for interactive data analysis — session DuckDB, hybrid LLM, container sandbox |
 | [splunk-mcp](https://github.com/nlink-jp/splunk-mcp) | Go | MCP server for Splunk search over the REST API — async job pattern, exact result counts |
 | [status-lens](https://github.com/nlink-jp/status-lens) | Swift | macOS menu-bar watcher for Statuspage-hosted status pages (Claude, GitHub, …) — per-profile label + shape symbol, degradation/recovery notifications |
 | [task-clock](https://github.com/nlink-jp/task-clock) | Go | Resident macOS scheduler that does not trust launchd timing — cron/watermark triggers, scheduled-vs-actual history with overrun accounting, persistent per-task pause, notification hooks, rotating daemon log, localhost HTTP trigger API. darwin/arm64 |

@@ -23,7 +23,6 @@ Per-tool build quirks:
 - **CGO + macOS frameworks, darwin/arm64 only:** report-studio-mcp — Core Text
   and Core Graphics through cgo; `MACOSX_DEPLOYMENT_TARGET` pins macOS 26
 - **Python/uv (make for test / vuln, no build; release has no assets):** gem-rag, pptx-to-markdown
-- **Wails v2/React GUI:** shell-agent-v2
 - **Swift GUI:** any submodule with a `Package.swift` — `ls */Package.swift`.
   Not listed by name: the list that stood here had four apps missing, one of
   them added the same week another was.
